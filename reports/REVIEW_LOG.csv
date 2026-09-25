@@ -1,0 +1,4 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0331.jpg,"2 box chồng lên nhau trên cùng 1 xe sedan tối ở làn giữa ảnh",deleted,"Box trùng nhau (cùng 1 xe bị model đề xuất 2 box) - theo GUIDELINE_LABEL.md chỉ giữ 1 box ôm sát thân xe"
+1,frame_0331.jpg,"hơn 10 xe nhỏ ở dải xa phía trên ảnh chỉ còn thấy đèn hậu (taillight) mà model bỏ sót hoàn toàn",added,"Chỉ thấy đèn vẫn đoán được viền thân xe quanh cụm đèn nên vẫn gán nhãn car theo GUIDELINE_LABEL.md - không được bỏ qua chỉ vì tối"
+1,frame_0369.jpg,"1 xe nhỏ bên phải ảnh - box gợi ý lệch không ôm hết thân xe",edited,"Chỉnh lại cạnh box cho ôm sát thân xe (tính cả đèn) theo GUIDELINE_LABEL.md"
